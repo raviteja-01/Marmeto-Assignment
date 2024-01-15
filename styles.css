@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+*{
+    box-sizing: border-box;
+    padding:0;
+    margin:0;
+}
+
+body{
+    padding:20px;
+}
+.main-heading{
+    color:#000;
+    font-family: "Inter",sans-serif;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-align: center; 
+}
+.search-input{
+    border:1px solid #000;
+    background: #F8F8F8;
+    border-radius: 5px;
+    padding:12px 15px;
+    width:40%;
+    color: #9E9E9E;
+    font-family: "Inter",sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.search-container{
+    margin-top:10px;
+    display:flex;
+    justify-content: center;
+    align-items: start;
+    gap:15px;
+}
+.list{
+    align-self: center;
+}
+.list:hover{
+    cursor:pointer;
+}
+.menu{
+    align-self: center;
+}
+.menu:hover{
+    cursor:pointer;
+}
+.list-container{
+    margin:20px auto 0px auto;
+    border:1px solid #000;
+    border-radius: 5px;
+    padding:10px 20px;
+    width:55%;
+}
+.list-view{
+    list-style-type: none;
+}
+.product-image-size{
+    width:200px;
+    height:200px;
+    background-image:url("./Images/cap.png");
+    background-size: cover;
+}
+.badge{
+    border-radius: 0px 10px 10px 10px;
+    background: #CCFF78;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.212);
+    color: #000;
+    font-family: "Inter" sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    width:50%;
+    height:15%;
+    padding:8px 20px;
+}
+.product-item{
+    border-radius: 5px;
+    border: 1px solid #E4E4E4;
+    margin-bottom: 15px;
+    padding:8px 15px;
+    display:flex;
+    gap:15px;
+}
+.product-variant{
+    color: #4D4D4D;
+    font-family: "Inter" sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 1.8px;
+    margin-bottom:10px;
+}
+.highlighted-style{
+    border-radius: 5px;
+    background: #CCFF78;
+    padding: 8px;
+}
+.product-list-container-grid{
+    display:flex;
+    flex-wrap: wrap;
+    gap:10px;
+}
+.list-view-grid{
+    border-radius: 5px;
+    background: #F9F9F9;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    margin-bottom: 15px;
+    padding: 8px 0px 8px 15px;
+    flex:1;
+}
+.badge-grid{
+    border-radius: 10px 0px 0px 10px;
+    background: #CCFF78;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    color: #000;
+    font-family: "Inter" sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    width: 50%;
+    height: 15%;
+    padding: 8px 20px;
+}
+.image-container{
+    display:flex;
+    justify-content: flex-end;
+}
